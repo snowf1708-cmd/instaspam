@@ -153,4 +153,4 @@ if __name__ == "__main__":
 
     for user in USERS:
         p = Process(target=DoitAnakin,args=(reportedGuy,reportedGuyID,user.split(" ")[0],user.split(" ")[1],None))
-        p.start()
+        p.start(1)
